@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-top: 30px;
+    background-image: url("../background.jpg");
+    background-size: cover;
+
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.page{
+    height: 1hv;
+}
+h1, h2, h3 ,h4 ,h5 ,h6{
+    margin: 0;
+}
+
+/* container*/
+.container{
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.intro_title{
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.9;
+}
+.intro_iner{
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+}
+   
+/*Header*/
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.header_iner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*nav*/
+.nav{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px;
+    position: relative;
+    font-size: 12pt;
+
+    color: #ff2525;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.nav__link:hover{
+    color: #e2ba28
+}
+
+.img_logo{
+    width: 125px;
+    height:125px;
+}
+
+.prostor1{
+    width: 100%;
+    height: 200px;
+}
+.befSlider{
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    color: #fff ;
+}
+
+.photo_div{
+    width: 100%;
+    text-align: center;
+}
+.photo{
+    width: 700px;
+    height: 400px;
+}
+
+.text_table{
+    color: #fff;
+    font-size: 14pt;
+    width: 60% ;
+}
+
+
+.menu1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background:blue;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 5%;
+  }
+  
+.menu__wrap1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    overflow: hidden;
+    color: #fff;
+    transition: height .5s;
+    text-align: center;
+}
+.prostor{
+    width: 100%;
+    height: 200px;
+}
+
+.menu1:hover .menu__wrap1{
+    height: 100%;
+}
+
+.P_footer{
+    font-size: medium;
+    color: #fff;
+    text-align: center  ;
+    font-size:16pt;
+}
+
+.nav__link_f{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px;
+    position: relative;
+
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.nav__link_f:hover{
+    color: #ffc800
+}
+
+/*2 частина*/
+.TaBle{
+    font-size: 16pt;
+    border: #fff;
+}
+.wapper{
+    display: grid;
+    grid-template-areas: 
+        " Header-r Header-r Header-l";
+    height: 100%;
+    padding: 15px;
+}
+
+.Header-l{
+    grid-area: Header-l;
+    color: #ffffff;
+    padding-left: 7%;
+    width: 40%;
+}
+.Header-r{
+    grid-area: Header-r;
+    color: #ffffff;
+    width: 60%;
+    padding-left: 10%;
+    font-size: 15pt;
+}
+
+.v1{
+    width: 80%;
+    text-align: center;
+    color: #eca3a3
+}
+
+.wapper2{
+    display: flex;
+    width: 95%;
+    padding-left: 5%;
+}
+.divW-l{
+    width: 60%;
+    height: auto;
+    font-size: 18pt;
+    color: aqua;
+    
+}
+.divW-r{
+    width: 40%;
+    margin-left: 5%;
+    font-size: 18pt;
+    color: #dfb211;
+    border: 2px solid;
+    
+}
+.TextMain1{
+    font-size: 18pt;
+    text-align: center;
+    color: #fff;
+}
+
+.huy{
+    width: 70%;
+    margin: 15%;
+    font-size: 16pt;
+    color: rgb(171, 196, 62);
+}
+.myButton{
+    border-radius: 5%;
+    width: 25%;
+    height: 15%;
+}
+
+.hidden {
+    display: none;
+  }
+.divW-f{
+    cursor: pointer;
+    margin-left: 6%;
+    border-radius: 5%;
+    
+
+}
+
+
+
+
